@@ -902,6 +902,10 @@ section {
   border-radius: 5px;
 }
 
+.pricing p {
+  color: #6c757d;
+}
+
 .pricing h3 {
   font-weight: 600;
   margin-bottom: 15px;
@@ -1279,6 +1283,19 @@ section {
   background: #fff;
   height: 100%;
   position: relative;
+}
+
+.horizontal-pricing p {
+  color: #6c757d;
+  font-size: 24px;
+  padding-top: 3px;
+}
+
+.horizontal-pricing p span {
+  color: var(--color-secondary);
+  font-size: 24px;
+  padding-right: 3px;
+  align-items: center;
 }
 
 .horizontal-pricing h3 {
